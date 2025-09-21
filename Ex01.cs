@@ -124,10 +124,10 @@ namespace Excercises_15
             {
                 if (n % i == 0)
                 {
-                    return true;
+                    return false;
                 }             
             }
-            return false;
+            return true;
             
         }
         static void PrintPrimeInArr (int[][] a)
@@ -166,3 +166,4 @@ namespace Excercises_15
 
     }
 }
+
